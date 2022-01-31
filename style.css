@@ -1,0 +1,77 @@
+html{
+    /*saare html m font family se change aa jayega */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header>h1{
+    font-weight: 400;
+}
+
+/* ek ke bd lane k wjah hm side by side layenge */
+header{
+    /* side by side arrange ho gya */
+    display:flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+
+li{
+    /* bullet point htt jayenge */
+    list-style: none;
+    /* 1 rem = 16pix ...rem responsive hti but pixel responsive nh hti */
+    /* responsive mtlb hta hai jaisa user chahta hai aap usi m usse dekh paye . eg- mobile and lapy dono m dekh paye */
+    font-size: 1.5rem;
+
+}
+
+ul{
+    display:flex;/*side by side align krne k lye */
+    /* nav m jyada space nhi hne k krn yeh space m faila nhi payega */
+    justify-content: space-between;
+}
+
+/* so give nav additional width */
+nav{
+    /* allow the nav ki aap uski position khi bhi move kr skte ho */
+    position: relative;
+    top:1rem;/*top s 1rem move ho jayega */
+    width: 22rem;
+}
+
+.showcase_img{
+    width: 95vw;/*meri screen ki size ko maintain krke chalega */
+}
+
+article{
+    display: flex;
+    margin:1.5rem;
+}
+
+.container{
+    text-align: centre;
+    margin-right: 2rem;
+    padding:1rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+footer{
+    background-color: black;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    /* anchor tag p click krne p red color ho jayega */
+    color:red;
+}
